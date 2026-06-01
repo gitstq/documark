@@ -1,0 +1,33 @@
+# DocuMark - 智能文档转换器依赖
+# 核心依赖
+python-docx>=0.8.11
+openpyxl>=3.0.10
+PyPDF2>=3.0.0
+pdfplumber>=0.6.0
+python-pptx>=0.6.21
+beautifulsoup4>=4.11.0
+markdownify>=0.11.6
+pillow>=9.0.0
+pytesseract>=0.3.10
+
+# CLI与UI
+click>=8.0.0
+rich>=13.0.0
+typer>=0.9.0
+
+# 工具库
+pydantic>=2.0.0
+python-magic>=0.4.27
+watchdog>=3.0.0
+aiofiles>=23.0.0
+
+# Web API (可选)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# 开发依赖
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
