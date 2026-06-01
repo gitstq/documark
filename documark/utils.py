@@ -5,7 +5,7 @@ DocuMark 工具函数
 import os
 import mimetypes
 from pathlib import Path
-from typing import Optional, Dict, List
+from typing import Optional, Dict, List, Union
 
 
 def detect_file_type(file_path: Union[str, Path]) -> str:
@@ -147,7 +147,3 @@ def truncate_text(text: str, max_length: int = 100, suffix: str = "...") -> str:
     if len(text) <= max_length:
         return text
     return text[:max_length - len(suffix)] + suffix
-
-
-# 类型提示
-from typing import Union
